@@ -10,12 +10,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-echo "hello $username"
+		echo "hello $username"
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
+		echo 'Test auto'
             }
         }
         stage('Deploy') {
