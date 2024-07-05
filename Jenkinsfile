@@ -16,7 +16,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-		echo 'Test auto1'
+		echo 'Test auto3
+'
             }
         }
         stage('Deploy') {
