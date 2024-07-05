@@ -10,6 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
+echo 'hello $username'
             }
         }
         stage('Test') {
