@@ -6,6 +6,7 @@ pipeline {
 
 
     }*/
+
     stages {
         stage('Build') {
             steps {
@@ -17,7 +18,7 @@ pipeline {
             steps {
                 echo 'Testing..'
 		echo "Test auto4"
-'
+
             }
         }
         stage('Deploy') {
