@@ -17,7 +17,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-		echo "Test auto5"
+		echo "Test webhook"
 
             }
         }
